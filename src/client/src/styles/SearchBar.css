@@ -1,0 +1,35 @@
+.search-bar {
+  width: 100%;
+  padding: 14px;
+  border-radius: 25px;
+  border: 2px solid #4f8df5;
+  font-size: 16px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.search-bar:focus {
+  border-color: #2a6be1;
+  box-shadow: 0 0 6px rgba(79, 141, 245, 0.4);
+}
+
+.autocomplete-box {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  position: absolute;
+  width: 100%;
+  margin-top: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.autocomplete-box li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.autocomplete-box li:hover {
+  background-color: #f2f2f2;
+}
